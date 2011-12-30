@@ -2,6 +2,7 @@ local FFI = require 'ffi'
 local FS = require 'fs'
 
 local libs = {
+  OSX     = { x86 = __dirname .. "/gles2.dylib", x64 = __dirname .. "/gles2.dylib" },
   Linux   = { x86 = "/usr/lib/i386-linux-gnu/libGLESv2.so.2", x64 = "/usr/lib/x86_64-linux-gnu/libGLESv2.so" },
 }
 

@@ -3,7 +3,7 @@ local FS = require 'fs'
 local Path = require 'path'
 
 local libs = {
-  OSX     = { x86 = "/Library/Frameworks/SDL.framework/SDL", x64 = "/Library/Frameworks/SDL.framework/SDL" },
+  OSX     = { x86 = __dirname .. "/sdl.dylib", x64 = __dirname .. "/sdl.dylib" },
   Linux   = { x86 = "/usr/lib/libSDL-1.2.so.0", x64 = "/usr/lib/libSDL-1.2.so.0" },
 }
 
