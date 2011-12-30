@@ -1,5 +1,5 @@
-local SDL = require '../lib/sdl'
-local Events = require '../lib/events'
+local SDL = require 'sdl'
+local Events = require 'events'
 local FFI = require 'ffi'
 
 SDL.SDL_Init(SDL.SDL_INIT_VIDEO)
